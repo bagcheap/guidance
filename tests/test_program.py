@@ -13,7 +13,7 @@ def test_chat_stream():
 
     async def f():
         chat = guidance("""<|im_start|>system
-You are a helpful assistent.
+You are a helpful assistant.
 <|im_end|>
 <|im_start|>user
 {{command}}
